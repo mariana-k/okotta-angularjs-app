@@ -14,6 +14,7 @@ angular.module('okottaApp')
 
 	// load data for content blocks
 	$scope.contentBlocksCollection = [];
+
     contentBlocksService
 		.loadContentBlocksData()
 		.then( function(contentBlocksCollection) {     
