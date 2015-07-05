@@ -1,0 +1,19 @@
+{
+  "name": "okotta",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.3.0",
+    "angular-cookies": "^1.3.0",
+    "angular-route": "^1.3.0",
+    "angular-animate": "^1.4.x",
+    "angular-aria": "^1.4.x",
+    "angular-material": "^0.9.0",
+    "angular-translate": "^2.7.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.0",
+    "angular-material": "~0.9.4"
+  },
+  "appPath": "app",
+  "moduleName": "okottaApp"
+}

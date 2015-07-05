@@ -1,0 +1,18 @@
+<header id="header">
+  <section class="utility-nav">
+    <a href="" ng-repeat="item in languagesCollection" ng-class="{'selected-class-name': $index == selectedIndex}"
+      ng-click="toggleLanguage($index)" ng-bind="item"></a>
+  </section>
+  <section class="logo">
+    <img src="images/logo_only-text.png" alt="Okotta Logo" />
+  </section>
+</header>
+<section id="content" flex layout="column">
+  <h2 translate="HEADLINE"></h2>
+  <section id="main" flex layout="row" layout-sm="column" layout-md="column">
+    <div class="content-block" ng-repeat="block in contentBlocksCollection" flex="33" flex-sm="100" flex-md="100">
+       <img ng-src="{{block.image}}" alt="{{block.alt}}" />
+       <h5 translate="{{block.content}}"></h5> 
+    </div>
+  </section>
+</section> 
