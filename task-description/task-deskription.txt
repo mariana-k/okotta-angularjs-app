@@ -1,4 +1,4 @@
-This project should include a Implementation of a typical design specification using HTML5, CSS3 and
+This project should include a implementation of a typical design specification using HTML5, CSS3 and
 Javascript.
 the page needs to adapt to mobile and desktop screens
 the page should meet semantic web standards
